@@ -3,11 +3,522 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Eyad Al-Khadrawy | Developer</title>
+
+    <meta name="description"
+          content="Eyad Al-Khadrawy — Programmer, embedded systems enthusiast, electronics developer and creator.">
+
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Eyad Hassan Al-Khadrawy</title>
 </head>
+
 <body>
-    <h1>Hello, World! <br> I'm Eyad.</h1>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            Eyad<span>.</span>
+        </a>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#github">GitHub</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+
+            <button id="themeToggle" aria-label="Toggle theme">
+                🌙
+            </button>
+
+            <button id="menuToggle" class="menu-toggle" aria-label="Open menu">
+                ☰
+            </button>
+
+        </div>
+
+    </div>
+</header>
+
+
+<main>
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content reveal">
+
+        <p class="welcome">👋 Welcome to my website</p>
+
+        <h1>
+            Hi, I'm <span>Eyad Al-Khadrawy</span>
+        </h1>
+
+        <h2>
+            Programmer & Embedded Systems Enthusiast
+        </h2>
+
+        <p class="intro">
+            I love building things with code and hardware.
+            I experiment with microcontrollers, electronics,
+            networking, software development and much more.
+        </p>
+
+        <div class="buttons">
+
+            <a href="#projects" class="button primary">
+                🚀 View My Projects
+            </a>
+
+            <a href="#about" class="button secondary">
+                👨‍💻 About Me
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-decoration reveal">
+
+        <div class="code-card">
+
+            <div class="code-header">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+<pre><code><span class="keyword">const</span> developer = {
+    name: <span class="string">"Eyad"</span>,
+    passion: <span class="string">"Building"</span>,
+    hardware: <span class="string">"ESP32"</span>,
+
+    languages: [
+        <span class="string">"Python"</span>,
+        <span class="string">"C/C++"</span>,
+        <span class="string">"MicroPython"</span>
+    ]
+};</code></pre>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="about section">
+
+    <div class="section-title reveal">
+        <p>GET TO KNOW ME</p>
+        <h2>About Me</h2>
+    </div>
+
+    <div class="about-content">
+
+        <div class="about-text reveal">
+
+            <p>
+                I'm Eyad Al-Khadrawy, a programmer and electronics
+                enthusiast who enjoys turning ideas into real,
+                working projects.
+            </p>
+
+            <p>
+                I particularly enjoy working with ESP32
+                microcontrollers and experimenting with sensors,
+                displays, wireless communication and embedded systems.
+            </p>
+
+            <p>
+                I'm also interested in software development,
+                networking, IoT, artificial intelligence and
+                game development.
+            </p>
+
+            <p>
+                I enjoy learning by building things, breaking them,
+                figuring out why they failed, and making them better.
+            </p>
+
+        </div>
+
+
+        <div class="about-cards reveal">
+
+            <div class="info-card">
+                <span>🔌</span>
+                <h3>Hardware</h3>
+                <p>ESP32, Arduino, sensors and electronics.</p>
+            </div>
+
+            <div class="info-card">
+                <span>💻</span>
+                <h3>Software</h3>
+                <p>Python, C/C++, MicroPython and C#.</p>
+            </div>
+
+            <div class="info-card">
+                <span>🌐</span>
+                <h3>Networking</h3>
+                <p>Wi-Fi, Bluetooth, ESP-NOW and IoT.</p>
+            </div>
+
+            <div class="info-card">
+                <span>🎮</span>
+                <h3>Game Development</h3>
+                <p>Creating games and interactive experiences.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="skills section">
+
+    <div class="section-title reveal">
+        <p>WHAT I WORK WITH</p>
+        <h2>Skills & Technologies</h2>
+    </div>
+
+
+    <div class="skills-grid">
+
+        <div class="skill-category reveal">
+
+            <h3>💻 Programming</h3>
+
+            <div class="skill-list">
+
+                <div class="skill">
+                    <span>Python</span>
+                    <div class="skill-bar">
+                        <span style="width: 90%"></span>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>C / C++</span>
+                    <div class="skill-bar">
+                        <span style="width: 80%"></span>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>MicroPython</span>
+                    <div class="skill-bar">
+                        <span style="width: 88%"></span>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>C#</span>
+                    <div class="skill-bar">
+                        <span style="width: 65%"></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-category reveal">
+
+            <h3>🔌 Hardware</h3>
+
+            <div class="skill-tags">
+
+                <span>ESP32</span>
+                <span>ESP32-S3</span>
+                <span>Arduino</span>
+                <span>Sensors</span>
+                <span>Displays</span>
+                <span>IoT</span>
+                <span>Embedded Systems</span>
+                <span>Electronics</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-category reveal">
+
+            <h3>🧰 Tools</h3>
+
+            <div class="skill-tags">
+
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+                <span>Arduino IDE</span>
+                <span>PlatformIO</span>
+                <span>Unity</span>
+                <span>MSYS2</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-category reveal">
+
+            <h3>🌐 Networking</h3>
+
+            <div class="skill-tags">
+
+                <span>Wi-Fi</span>
+                <span>Bluetooth</span>
+                <span>ESP-NOW</span>
+                <span>TCP/IP</span>
+                <span>Web Servers</span>
+                <span>IoT</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="projects section">
+
+    <div class="section-title reveal">
+
+        <p>WHAT I'VE BEEN BUILDING</p>
+
+        <h2>Projects</h2>
+
+    </div>
+
+    <div id="projectsGrid" class="projects-grid">
+        <!-- Projects are generated by JavaScript -->
+    </div>
+
+</section>
+
+
+<!-- ================= LEARNING ================= -->
+
+<section id="learning" class="learning section">
+
+    <div class="section-title reveal">
+
+        <p>ALWAYS LEARNING</p>
+
+        <h2>Currently Exploring</h2>
+
+    </div>
+
+
+    <div class="learning-grid">
+
+        <div class="learning-card reveal">
+            <span>🤖</span>
+            <h3>Artificial Intelligence</h3>
+            <p>
+                Exploring machine learning and how AI can
+                interact with embedded systems.
+            </p>
+        </div>
+
+
+        <div class="learning-card reveal">
+            <span>📡</span>
+            <h3>Wireless Systems</h3>
+            <p>
+                Experimenting with Wi-Fi, Bluetooth,
+                ESP-NOW and IoT communication.
+            </p>
+        </div>
+
+
+        <div class="learning-card reveal">
+            <span>⚙️</span>
+            <h3>Embedded Systems</h3>
+            <p>
+                Learning more about low-level programming,
+                microcontrollers and electronics.
+            </p>
+        </div>
+
+
+        <div class="learning-card reveal">
+            <span>🎮</span>
+            <h3>Game Development</h3>
+            <p>
+                Exploring game development and multiplayer
+                systems with Unity.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= GITHUB ================= -->
+
+<section id="github" class="github section">
+
+    <div class="section-title reveal">
+
+        <p>MY CODE</p>
+
+        <h2>GitHub</h2>
+
+    </div>
+
+
+    <div class="github-content reveal">
+
+        <div class="github-icon">
+            <span>🐙</span>
+        </div>
+
+        <div>
+
+            <h3>Check out my repositories</h3>
+
+            <p>
+                I publish my projects, experiments and
+                learning progress on GitHub.
+            </p>
+
+            <a
+                href="https://github.com/EyadAlKhadrawy"
+                target="_blank"
+                class="button primary">
+
+                View GitHub →
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact section">
+
+    <div class="section-title reveal">
+
+        <p>LET'S CONNECT</p>
+
+        <h2>Contact Me</h2>
+
+    </div>
+
+
+    <p class="contact-text reveal">
+
+        Have an interesting project or just want to say hi?
+        Feel free to reach out!
+
+    </p>
+
+
+    <div class="contact-buttons reveal">
+
+        <a
+            href="https://github.com/EyadAlKhadrawy"
+            target="_blank"
+            class="contact-card">
+
+            <span>🐙</span>
+
+            <div>
+                <strong>GitHub</strong>
+                <small>EyadAlKhadrawy</small>
+            </div>
+
+        </a>
+
+
+        <a
+            href="mailto:eyadhassanoody@gmail.com"
+            class="contact-card">
+
+            <span>📧</span>
+
+            <div>
+                <strong>Email</strong>
+                <small>eyadhassanoody@gmail.com</small>
+            </div>
+
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <div class="footer-logo">
+            Eyad<span>.</span>
+        </div>
+
+        <p>
+            Building things with code & electronics.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <p class="copyright">
+            © <span id="year"></span> Eyad Al-Khadrawy.
+            All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<div id="scrollTop" class="scroll-top">
+    ↑
+</div>
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
