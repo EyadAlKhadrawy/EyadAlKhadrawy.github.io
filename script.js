@@ -3,7 +3,20 @@
 ===================================================== */
 
 const projects = [
+    {
+        icon: "😓",
+        title: "This Website And No Other Uploaded Projects Yet",
+        description:
+            "This website is currently under construction. Please check back later for updates.But in the meantime, you can explore my other inprogress projects on my GitHub profile.",
+        technologies: [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        link: "#github"
+    }
 
+/*
     {
         icon: "🚗",
 
@@ -111,7 +124,7 @@ const projects = [
 
         link: "#"
     }
-
+*/
 ];
 
 
